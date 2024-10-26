@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
 
-void solve()
-{
+void solve() {
     int n;
     std::cin >> n;
-    if (n > 12)
-    {
+    if (n > 12) {
         std::cout << 0 << '\n';
         return;
     }
@@ -17,8 +15,7 @@ void solve()
     std::cout << cnt << '\n';
 }
 
-int main()
-{
+int main() {
     int tt;
     std::cin >> tt;
     while (tt--)

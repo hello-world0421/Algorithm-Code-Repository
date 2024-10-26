@@ -32,7 +32,6 @@ build/
 *.pyc
 *.pyo
 *.pyd
-*.log
 *.pot
 *.mo
 *.so
@@ -57,7 +56,6 @@ venv/
 *.pyc
 *.pyo
 *.pyd
-*.log
 *.pot
 *.mo
 *.so
