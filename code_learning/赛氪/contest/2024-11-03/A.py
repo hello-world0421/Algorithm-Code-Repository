@@ -1,6 +1,6 @@
 a = []
 for i in range(1000):
-    if (3 ** i <= 1e19):
-        a.append(3 ** i)
+    if (5 ** i <= 9223372036854775807):
+        a.append(5 ** i)
 print(*a, sep=', ')
 print(len(a))
