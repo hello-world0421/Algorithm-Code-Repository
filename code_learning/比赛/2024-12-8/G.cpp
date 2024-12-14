@@ -1,4 +1,4 @@
-# G题
+// G题
 #include <bits/stdc++.h>
 using i64 = long long;
 

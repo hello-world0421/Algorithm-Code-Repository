@@ -1,4 +1,4 @@
-# C题
+// C题
 #include <bits/stdc++.h>
 using i64 = long long;
 constexpr int mod = 998244353;

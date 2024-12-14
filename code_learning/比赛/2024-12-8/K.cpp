@@ -1,4 +1,4 @@
-# K题
+// K题
 #include <bits/stdc++.h>
 
 void solve() {

@@ -1,4 +1,4 @@
-# A题
+// A题
 #include <bits/stdc++.h>
 
 void solve() {
