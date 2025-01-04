@@ -1,19 +1,19 @@
 #include <bits/stdc++.h>
-using namespace std;
 using i64 = long long;
 
 void solve() {
     int n, k; std::cin >> n >> k;
-    std::cout << n << k;
-    map<int, int> mp;
+    std::vector<i64> res(k, 0);
     for (int i = 0, brand, cost; i < k; i++) {
         std::cin >> brand >> cost;
-        mp[brand] += cost;
+        res[brand - 1] += cost;
     }
-    std::cout << 1 << '\n';
-    for (auto& [brand, cost] : mp) {
-        std::cerr << brand << ':' << cost << '\n';
+    std::sort(res.begin(), res.end(), std::greater<i64>());
+    i64 ans = 0;
+    for (int i = 0; i < std::min(k, n); i++) {
+        ans += res[i];
     }
+    std::cout << ans << "\n";
 }
 
 int main() {
